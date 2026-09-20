@@ -1,0 +1,19 @@
+In this program we have to reverse only vowels present in the string.
+
+for example: If there is a string like "Coconut oil".
+So the new string after reversing the vowels will be "Ciconut ool".
+
+To solve such a problem we will be using the 2 pointer approach.
+
+To begin with we willhav 1 pointer on the first letter that will be the left pointer and the other pointer on the last letter that will be the right pointer and we will swap only the vowels present. 
+
+If we encounter a consonant on the left side we will simply increment the left pointer and if we encounter it on right side we will decrement the right counter by 1.
+
+So when we have both the pointers on the vowels we will simply swap the lettersbut string is immutable in java so we have to convert it into a character array and then change the array index and increment the left pointer and decrement the right pointer.
+
+At last we will simply convert the character array into a string and return it.
+
+Time complexity : O(n) (each charcetr is checked a constant number of times)
+Space complexity : O(n) (we are using character array)
+
+
