@@ -1,4 +1,4 @@
-In this program we have to reverse only vowels present in the string.
+#In this program we have to reverse only vowels present in the string.
 
 for example: If there is a string like "Coconut oil".
 So the new string after reversing the vowels will be "Ciconut ool".
